@@ -1,0 +1,23 @@
+td { border: 1px solid black;
+     width: 100px;
+     height: 100px;
+     text-align: center;
+     font-size: 90px;
+     font-weight: bold;
+     font-family: cursive;}
+
+.display {height: 100vh;
+          width: 100%;
+         position: relative;
+        }
+
+table { position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+}
+
+.x::after{ content: "X";}
+
+.o::after{ content: "O";}
+

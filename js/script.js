@@ -19,13 +19,14 @@ casella.forEach(td =>{
 
         if ( (turno % 2 ) === 0 && (valore.innerHTML==="")) {
 
-        td.classList.toggle("x");
+        td.classList.toggle("x")
         turno++;
 
-        } else { td.classList.toggle("o")
+        } else if ( (turno % 2 ) !== 0 && (valore.innerHTML==="")){ td.classList.toggle("o")
                 turno++; }
 
       }  )
 
     });
     
+
